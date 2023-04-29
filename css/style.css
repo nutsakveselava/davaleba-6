@@ -27,7 +27,7 @@ nav{
 
 .li1{
 display: inline-block;
-font-family: Ubuntu;
+font-family: 'Ubuntu', sans-serif;
 font-size: 24px;
 font-weight: 500;
 color:  #27187F;
@@ -50,7 +50,7 @@ color:  #27187F;
 
 /* header */
 h1{
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-size: 32px;
 font-weight: 700;
 line-height: 37px;
@@ -91,7 +91,7 @@ section{
     
 }
 p{
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -100,6 +100,58 @@ line-height: 23px;
 color: #133B3A;
 }
 /* footer */
+footer{
+    background: #758BFD;
+    width: 1440px;
+    height: 504px;
+}
+.trending{
+    display: inline-block;
+}
+
+h3{
+    font-family: Century Gothic;
+font-size: 18px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #00CAD7;
+
+}
+
+h4{
+    font-family: Century Gothic;
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.list{
+    font-family: Century Gothic;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+}
+
+.trending{
+    display: inline-block;
+}
+.information{
+    display: inline-block;
+}
+.customer-care{
+    display: inline-block;
+}
 
 
 
