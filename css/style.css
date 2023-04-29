@@ -1,0 +1,66 @@
+/* container */
+.flex_container{
+   max-width:  1440px;
+   width: 100%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+    
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+
+}
+
+
+
+nav{
+    display: inline-block;
+}
+
+.li1{
+display: inline-block;
+font-family: Ubuntu;
+font-size: 24px;
+font-weight: 500;
+color:  #27187F;
+;
+
+
+}
+
+
+.search_box{
+    display: flex;
+    justify-content: end;
+    display: inline-block;
+    width: 221px;
+    border: 3px solid #27187F;
+    border-radius: 10px;
+}
+
+
+
+/* header */
+
+/* nav */
+
+/* div */
+
+
+/* section */
+
+/* footer */
+
+
+
+
+
+
