@@ -12,7 +12,8 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 98px;
     align-items: center;
     height: 160px;
 
@@ -21,7 +22,11 @@ header{
 
 
 nav{
-    display: inline-block;
+    
+}
+.headerul{
+    display: flex;
+    gap: 50px;
 }
 
 .li1{
@@ -39,16 +44,11 @@ color:  #27187F;
 
 .search_box{
     display: flex;
-    align-items: flex-end;
-    display: inline-block;
     width: 221px;
     border: 3px solid #27187F;
     border-radius: 10px;
 }
-.img1{
-    display: flex;
-    align-items: flex-end;
-}
+
 
 
 
@@ -63,6 +63,7 @@ line-height: 37px;
 letter-spacing: 0em;
 text-align: left;
 color: #27187F;
+margin-bottom: 68px;
 
 }
 
@@ -80,73 +81,96 @@ section{
 }
 .bigbox{
     background: #DDEAF8;
-    width: 1440px;
+    width: 100%;
+    padding: 94px 98px 135px;
     
 }
 .cards{
+
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 51px;
 
 }
 .box1{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
     
 }
 .box2{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
    
 }
 .box3{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
   
 }
 .box4{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
    
 }
 .box5{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
    
 }
 .box6{
     background: #FFFFFF;;
     width: 27.7%;
     height: 333px;
+    padding: 33px 30px;
+    border-radius: 10px;
     
 }
 
 .photo1{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 .photo2{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 .photo3{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 .photo4{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 .photo5{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 .photo6{height: 188px;
-    width: 85%;
+    width: 100%;
+    margin-bottom: 33px;
 
 }
 
@@ -164,20 +188,16 @@ color: #133B3A;
 /* footer */
 footer{
     background: #758BFD;
-    width: 1440px;
-    height: 504px;
-    display: flex;
-    justify-content: center
+   padding: 75px 98px;
     
 }
 .textbox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.trending{
-    display: inline-block;
+
    
-}
+
 
 h3{
     font-family: Century Gothic;
@@ -214,14 +234,11 @@ display: flex;
 align-items: center;
 }
 
-.trending{
-    display: inline-block;
-}
-.information{
-    display: inline-block;
-}
-.customer-care{
-    display: inline-block;
+.cards1{
+    display: flex;
+    justify-content: flex-end;
+    gap: 11px;
+    margin-top: 97px;
 }
 
 
